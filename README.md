@@ -1,6 +1,6 @@
 # Sistema de Agendamento para Hospital Veterinário
 
-Este projeto refer-se ao front-end de um sistema de agendamento para um hospital veterinário, utilizando React. Atualmente, a tela de login está pronta e a tela inicial está em desenvolvimento.
+Este projeto refere-se ao front-end de um sistema de agendamento para um hospital veterinário, utilizando React. Atualmente, a tela de login está pronta e a tela inicial está em desenvolvimento.
 
 ## Funcionalidades
 
@@ -11,7 +11,4 @@ Este projeto refer-se ao front-end de um sistema de agendamento para um hospital
 
 - **Frontend:** React.js
 
-## Como Rodar o Projeto Localmente
 
-1. Clone o repositório:
-   git clone https://github.com/KeilaMoura/Projeto-Hovet.git
