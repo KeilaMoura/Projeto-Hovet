@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.botao{
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  background: linear-gradient(to bottom, rgb(223, 140, 191), rgb(200, 78, 98));
+  border-color: pink;
+
+}
+
+a{
+  text-decoration: none;
+   color: white;
+}

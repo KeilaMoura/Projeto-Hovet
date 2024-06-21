@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap");
+
+
+body{
+    background-color: #D8D8D8;
+}
+
+#container-home{
+    margin: 0;
+}
+
+
+/*CABEÇALHO*/
+#container-logo{
+    position: relative;
+    width: 100%;
+    height: 131px;
+    background-color: #2B4360;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#logo{
+    background-image: url(./fotos/logohovetHome.svg);
+    width: 319px;
+    height: 110px;
+    margin-left: 100px;
+}
+
+#lista-cabecalho{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 35%;
+    
+}
+
+.lista, li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 1.2em;
+    font-weight: 100;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.lista, a{
+    color: #ffffff67; 
+}
+
+.lista, a:hover{
+     color: #ffffff;
+}
+
+#button-cl{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 74%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.botao-login{
+  margin-right: 15px;
+}
+
+.botoescabecalho{
+    width: 135px;
+    height: 50px;
+    background-color: #2B4360;
+    margin-left: 3px;
+    border: solid 3px;
+    border-radius: 30px;
+    border-color: #ece4e4;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.botoescabecalho:hover{
+    transform: scale(1.2);
+    background-color: #D8D8D8;
+}
+
+.linkcl, h2:hover{
+    color: #2B4360;
+    font-weight: 300;
+}
+
+
+
+.botoescabecalho, h2{
+    font-family: "Blinker", sans-serif;
+    font-size: 1.1em;
+    font-weight: 200;
+}
+
+/*------------------------------------------------------------------------------*/
+
+#fundo-branco-azul{
+    background-image: url(./fotos/fundoazul-branco.svg);
+    width: 1480px;
+    height: 585px;
+}

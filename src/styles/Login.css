@@ -1,0 +1,172 @@
+
+/*------------------- PÁGINA DE LOGIN ---------------------------------*/
+
+
+#maioral{
+  position: relative;
+  width: 100%;
+  height: 982px;
+}
+
+#container{
+  width: 100%;
+  height: 982px;
+  background: url(fotos/FOTO\ FUNDO.svg);
+
+}
+
+#logo-forms{
+  position: absolute;
+  background: url(fotos/Rectangle\ 33.svg);
+  width: 1159px;
+  height: 681px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+#logo-hovet{
+  position: absolute;
+  background: url(fotos/logo\ hovet\ 2.svg);
+  width: 268.17px;
+  height: 195.35px;
+  float: right;
+  right: 65%;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+/* FORMULÁRIO  */
+#form-login{
+  position: absolute;
+  background-color: #FBFBFB;
+  width: 623px;
+  height: 681px;
+  border-radius: 50px;
+  right: 0%;
+  top: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+
+#campo-email, #campo-senha, #campo-google, #campo-submit{
+  margin-bottom: 15px;
+}
+
+#email, #senha{
+  width: 300px;
+  height: 40px;
+  border-radius: 50px;
+  border-color: #86c7d9;
+  
+}
+
+#botao-google, #botao-login{
+  width: 315px;
+  height: 40px;
+  border-radius: 50px;
+  padding-left: 10px;
+  border-color: #86c7d9;
+
+}
+
+#botao-google{
+  background-image: url(fotos/icons8-google-plus-30.png);
+  background-repeat: no-repeat;
+  background-position: 10px;
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+}
+
+#senha{
+  background-image: url(fotos/icons8-visível-25.png);
+  background-repeat: no-repeat;
+  background-position: 270px;
+  background-color: rgb(255, 255, 255);
+}
+
+#botao-login{
+  background-color: #2B4360;
+  border: none;
+}
+
+#campo-link{
+  color: #000000;
+}
+
+
+
+.place{
+  padding-left: 10px;
+  color: #000000;
+}
+
+#label{
+  font-weight: 900;
+  margin-left: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #2B4360;
+  font-size: 1em;
+}
+
+h3{
+  font-weight: 500;
+  font-size: 1em;
+  text-align: center;
+}
+
+h2{
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  font-size: 1.1em;
+  color: white;
+
+}
+
+h4{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0;
+  font-size: 0.8em;
+  text-align: center;
+  color: #BBBBBB;
+}
+
+h1{
+  color: #2B4360;
+  font-weight: 800;
+}
+
+span{
+  color: #5889C5;
+}
+
+.componente{
+  border: 2px solid rgb(20, 20, 109);
+  background-color: #86c7d9;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+
+}
+
+.h1componente{
+  color: #2B4360;
+  padding: 10px;
+
+}
+
+.pcomponente{
+  padding: 10px;
+
+}
+
+.h2componente{
+  color: #282c34;
+}
